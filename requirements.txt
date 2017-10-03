@@ -1,0 +1,9 @@
+#Please use pip or conda at your own discretion
+#Below commands are for normal user, please use sudo if necessary
+
+#install gensim module
+pip install gensim
+
+#install nltk 
+pip install nltk
+
