@@ -32,7 +32,7 @@ nltk.download('stopwords')
 
 # Get agent conversations and filter duplicates
 def read_data():
-    df = pd.read_csv('data/data.csv',sep='|', quotechar='"')
+    df = pd.read_csv('../webApp/data/four_companies_event_level_data.csv',sep='|', quotechar='"')
     df_agent = df.loc[(df.is_customer == 'f')]
     df_agent.skill_name.fillna(value='none',inplace=True)
     df_agent_unique = df_agent.drop_duplicates('content')

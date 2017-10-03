@@ -20,7 +20,6 @@ Y_test=get_dummies(Y_test)
 
 tokenizer = Tokenizer(num_words=MAX_NB_WORDS)
 tokenizer.fit_on_texts(list(df['content']))
-
 word_index = tokenizer.word_index
 
 train_sequences_1 = tokenizer.texts_to_sequences(list(X_train))
