@@ -1,9 +1,12 @@
-#Please use pip or conda at your own discretion
-#Below commands are for normal user, please use sudo if necessary
-
-#install gensim module
-pip install gensim
-
-#install nltk 
-pip install nltk
+gensim==2.3.0
+ipython==5.4.1
+Keras==2.0.5
+matplotlib==2.0.2
+nltk==3.2.5
+numpy==1.13.0
+pandas==0.20.2
+scikit-image==0.13.0
+scikit-learn==0.18.2
+scipy==0.19.1
+tensorflow==1.2.1
 
