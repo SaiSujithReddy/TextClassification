@@ -19,3 +19,15 @@ def model_config():
 
 	print("Done with building model")
 	return model
+
+def model_fit(model,train_data_1,Y_train,test_data_1,Y_test,class_weight):
+	print('Evaluating the model ...')
+	model.fit(train_data_1, Y_train,
+          batch_size=64,
+          epochs=1,
+          validation_data=(test_data_1, Y_test),class_weight=class_weight)
+score, acc = model.evaluate(test_data_1, Y_test,
+                            batch_size=64)
+	print('Test score:', score)
+	print('Test accuracy:', acc)
+	model.save("model.h5")

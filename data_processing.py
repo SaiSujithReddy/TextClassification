@@ -1,9 +1,5 @@
 from helper_functions import *
 
-VALIDATION_SPLIT = 0.2
-MAX_SEQUENCE_LENGTH = 300
-MAX_NB_WORDS = 200000
-EMBEDDING_DIM = 200
 
 df = read_data()
 df = clean_up(df)
