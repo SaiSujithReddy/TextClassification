@@ -1,4 +1,4 @@
-from helper_functions import *
+from TextClassification.utils.helper_functions import *
 
 
 df = read_data()
