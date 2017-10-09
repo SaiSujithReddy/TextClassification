@@ -30,13 +30,14 @@
 <img src="https://github.com/SaiSujithReddy/TextClassification/blob/master/visuals/Screen%20Shot%202017-10-08%20at%2010.39.53%20PM.png" alt="Accuracy" width="600px">
 </p>
 ### Parameters iterated on:
-- Data preprocessing
-- # of layers
-- Class weights
-- Activation functions
-- Epochs
-- Sampling
-
+<p>
+1. Data preprocessing
+2. # of layers
+3. Class weights
+4. Activation functions
+5. Epochs
+6. Sampling
+</p>
 
 
 ## Requirements
