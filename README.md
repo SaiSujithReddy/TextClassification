@@ -1,12 +1,12 @@
-#Text Classification
+# Text Classification
 
 ## Objective
 <p> This project classifies conversational phrases into different categories based on the content. The network is trained on customer support conversations. Only agent's conversation is used for this purpose. The different categories of the conversation indicate the information the agent is providing/gathering. By predicting the classification category,the agent can be provided by more targeted documentation to help the customer. This tool can be used to both help/support the agent as well as measure their performance.</p>
 
-##Data
+## Data
 <p> Below is a snapshot of the chat conversation data: </p>
-```
-| -------------------Content ------------------------------| ------Label--------- |
+
+```| -------------------Content ------------------------------| ------Label--------- |
 | How are you doing ?                                      | Greeting |
 | Please find product details at this location             | Product features |
 | You could save potentially $100/year with our product    | Benefits to customer |
@@ -20,7 +20,7 @@
 
 ```
 
-##Requirements
+## Requirements
 ```
 gensim==2.3.0
 ipython==5.4.1
