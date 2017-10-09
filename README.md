@@ -33,7 +33,7 @@
 ### Parameters iterated on:
 
 1. Data preprocessing
-2. # of layers
+2. No of layers
 3. Class weights
 4. Activation functions
 5. Epochs
