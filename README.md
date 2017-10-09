@@ -19,6 +19,17 @@
 | This program is much better than our competitor          | Upsells the product |
 
 ```
+## Architecture
+
+<p align="center">
+<img src="https://github.com/SaiSujithReddy/TextClassification/blob/master/visuals/Screen%20Shot%202017-10-08%20at%2010.39.42%20PM.png" alt="LSTM Architecture" width="600px">
+</p>
+
+## Results
+<p align="center">
+<img src="https://github.com/SaiSujithReddy/TextClassification/blob/master/visuals/Screen%20Shot%202017-10-08%20at%2010.39.53%20PM.png" alt="Accuracy" width="600px">
+</p>
+
 
 ## Requirements
 ```
