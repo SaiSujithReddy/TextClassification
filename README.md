@@ -1,4 +1,11 @@
-How data looks like ?
+#Text Classification
+
+## Objective
+<p> This project classifies conversational phrases into different categories based on the content. The network is trained on customer support conversations. Only agent's conversation is used for this purpose. The different categories of the conversation indicate the information the agent is providing/gathering. By predicting the classification category,the agent can be provided by more targeted documentation to help the customer. This tool can be used to both help/support the agent as well as measure their performance.</p>
+
+##Data
+<p> Below is a snapshot of the chat conversation data: </p>
+```
 | -------------------Content ------------------------------| ------Label--------- |
 | How are you doing ?                                      | Greeting |
 | Please find product details at this location             | Product features |
@@ -11,10 +18,19 @@ How data looks like ?
 | Sorry for the inconvenience that has been caused to you  | Pleases customer |
 | This program is much better than our competitor          | Upsells the product |
 
+```
 
-
-
-Things that I need to install before running the code ?
-Tensorflow
-Keras
-
+##Requirements
+```
+gensim==2.3.0
+ipython==5.4.1
+Keras==2.0.5
+matplotlib==2.0.2
+nltk==3.2.5
+numpy==1.13.0
+pandas==0.20.2
+scikit-image==0.13.0
+scikit-learn==0.18.2
+scipy==0.19.1
+tensorflow==1.2.1
+```
