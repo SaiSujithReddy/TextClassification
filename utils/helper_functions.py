@@ -1,31 +1,10 @@
-# Read data from file and get all agent information
-
-import gensim, os, re, csv, codecs, sys, nltk
-
-import numpy as np
+import nltk,re
 import pandas as pd
-
 from sklearn.model_selection import train_test_split
-from sklearn.utils import class_weight
-
 from nltk.corpus import stopwords
 from nltk.stem import SnowballStemmer
 
-from string import punctuation
-
-from gensim.models import KeyedVectors
-
-from keras.models import Sequential
-from keras.preprocessing.text import Tokenizer
-from keras.preprocessing.sequence import pad_sequences
-from keras.layers import Dense, Input, LSTM, Embedding, Dropout, Activation
-from keras.layers.merge import concatenate
-from keras.models import Model
-from keras.layers.normalization import BatchNormalization
-from keras.callbacks import EarlyStopping, ModelCheckpoint
-from keras.regularizers import l2,l1,l1_l2
-
-#print("On a fresh system it takes around 4 min download gensim / nltk libraries")
+nltk.download('stopwords')
 
 # Get stopwords from nltk library
 nltk.download('stopwords')
