@@ -1,6 +1,5 @@
 # Text Classification
-
-link for presentation  <link>bit.ly/sai-ai</link>          
+     
 
 ## Objective
 <p> This project classifies conversational phrases into different categories based on the content. The network is trained on customer support conversations. Only agent's conversation is used for this purpose. The different categories of the conversation indicate the information the agent is providing/gathering. By predicting the classification category,the agent can be provided by more targeted documentation to help the customer. This tool can be used to both help/support the agent as well as measure their performance.</p>
