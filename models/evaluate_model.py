@@ -11,3 +11,9 @@ def evaluate(model):
                                 batch_size=64)
     print('Test score:', score)
     print('Test accuracy:', acc)
+
+
+if __name__ == '__main__':
+    model=model_config()
+    model_fit(model, train_data_1, Y_train, test_data_1, Y_test, class_weight)
+    evaluate(model)
