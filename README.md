@@ -57,3 +57,7 @@ scikit-learn==0.18.2
 scipy==0.19.1
 tensorflow==1.2.1
 ```
+
+## Slides
+<p> Presentation slides are here: http://tinyurl.com/SaiMarapaReddyAIDemo
+  
